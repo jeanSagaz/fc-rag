@@ -14,14 +14,6 @@ Crie o arquivo '.env' conforme o arquivo '.env.example'.
 **1. Subir banco**  
 ```bash
 # Exemplo de comando Bash para copiar
-git clone https://github.com
-cd repositorio
-npm install
-```
-
-
-```bash
-# Exemplo de comando Bash para copiar
 docker-compose up -d  
 ```
 
