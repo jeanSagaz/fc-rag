@@ -4,7 +4,7 @@
 - langchain
 - postgreSQL + pgVector
 - openAI
-- rag
+- busca semântica
 - docker
 
 ## Setup
@@ -20,14 +20,14 @@ docker-compose up -d
 **2. Criando ambiente virtual**  
 ```bash
 # Exemplo de comando Bash para copiar
-python -m venv venv    
+python -m venv .venv    
 ```
 
 Acessando ambiente virtual no Windows:  
 No Prompt de Comando (CMD):  
 ```bash
 # Exemplo de comando Bash para copiar
-venv\Scripts\activate  
+.venv\Scripts\activate  
 ```
 
 No PowerShell:  
@@ -39,7 +39,7 @@ No PowerShell:
 Acessando ambiente virtual no Windows:  
 ```bash
 # Exemplo de comando Bash para copiar
-source venv/bin/activate  
+source .venv/bin/activate  
 ```
 
 **3. Instalar dependências**  
